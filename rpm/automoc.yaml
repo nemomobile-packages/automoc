@@ -1,0 +1,28 @@
+Name: automoc
+Summary: Automatic moc for Qt 4 packages
+Version: 0.9.88
+Release: 1
+Group: Development/Tools
+License: BSD
+URL: http://websvn.kde.org/trunk/kdesupport/automoc/
+Sources:
+    - "%{name}-%{version}.tar.bz2"
+Description: |
+    This package contains the automoc4 binary which is used to run moc on the right
+    binaries in a Qt 4 or KDE 4 application.
+    
+    Moc is the meta object compiler which is a much used tool when using the Qt
+    toolkit.
+
+Requires:
+    - libqt-devel
+PkgBR:
+    - cmake
+    - gcc-c++
+PkgConfigBR:
+    - QtCore
+Provides:
+    - automoc4 = %{version}
+Configure: none
+Builder: none
+SetupOptions: -q -n %{name}-%{version}/%{name}

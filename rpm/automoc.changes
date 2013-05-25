@@ -1,0 +1,8 @@
+* Mon Dec 10 2012 Marko Saukko <marko.saukko@jollamobile.com> - 0.9.88
+- Updated packaging.
+
+* Thu Nov 03 2011 Marko Saukko <marko.saukko@cybercom.com> - 0.9.88
+- Added .yaml for spectacle.
+
+* Mon Jul 19 2010 Fathi Boudra <fathi.boudra@nokia.com> - 0.9.88
+- Add Automoc4 package
