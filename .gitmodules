@@ -1,0 +1,3 @@
+[submodule "automoc"]
+	path = automoc
+	url = git://anongit.kde.org/automoc
